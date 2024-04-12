@@ -1,0 +1,16 @@
+:root {
+  --scale: 1.15;
+}
+.fancy-text {
+  font-size: var(--lg);
+  line-height: 1.2;
+}
+article {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+footer {
+  margin-top: var(--lg);
+  font-size: var(--small);
+}
