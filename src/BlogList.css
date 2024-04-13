@@ -130,4 +130,46 @@
   }
 }
 @media (min-width: 900px) {
+  .card-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5rem 4%;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    padding: 0 2rem 5rem 2rem;
+    margin: 0 auto;
+  }
+  .card {
+    flex-basis: 30%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 50% 20% 20%;
+    margin: 0;
+    padding: 0;
+  }
+  .card h2 {
+    grid-column: auto;
+    grid-row: auto;
+    margin: 2rem auto;
+    text-align: center;
+    writing-mode: horizontal-tb;
+  }
+  .card .card-image {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .card p {
+    grid-column: auto;
+    grid-row: auto;
+    padding: 1rem 0;
+    margin: 0;
+  }
+  .card p:last-of-type {
+    grid-column: auto;
+    grid-row: auto;
+    align-self: start;
+    justify-self: center;
+  }
+  .button {
+    margin: 0;
+  }
 }
