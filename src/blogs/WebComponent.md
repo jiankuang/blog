@@ -1,5 +1,7 @@
 ## Web Component
 
+![WebComponent](../blogs/WebComponent.png)
+
 A modular, reusable building block for web development that encapsulates a set of related functionality and user interface elements.
 In short, your own custom HTML tag element.
 

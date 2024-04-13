@@ -1,5 +1,7 @@
 ## Prototype
 
+![Prototype](../blogs/Prototype.png)
+
 ### Object prototype
 
 #### for ... of

@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Blog from "./Blog";
+import BlogList from "./BlogList";
 import SearchParams from "./SearchParams";
 import BlogDetails from "./BlogDetails";
 
@@ -20,21 +20,7 @@ const App = () => {
             element={
               <div>
                 <SearchParams />
-                <Blog
-                  fileName="WebComponent"
-                  name="Wev Component"
-                  description="My blog for Web Component"
-                />
-                <Blog
-                  fileName="Prototype"
-                  name="Prototype"
-                  description="My blog for JS Prototype"
-                />
-                <Blog
-                  fileName="LinkedList"
-                  name="LinkedList"
-                  description="My blog for LinkedList"
-                />
+                <BlogList />
               </div>
             }
           />
